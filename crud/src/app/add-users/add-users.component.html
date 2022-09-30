@@ -1,0 +1,16 @@
+<div class="main-div">
+    <mat-card>
+        <form ngNativeValidate [formGroup]="form" (ngSubmit)="submitForm()">
+
+            <mat-form-field>
+                <mat-label for="name">Name</mat-label>
+                <input matInput placeholder="Name" name="name" type="text" formControlName="name" required>
+            </mat-form-field>
+
+            <div class="container-button">
+                <button mat-raised-button type="submit">Add User</button>
+                <button mat-raised-button (click)="cancelar()" [mat-dialog-close]="true">Cancelar</button>
+            </div>
+        </form>
+    </mat-card>
+</div>

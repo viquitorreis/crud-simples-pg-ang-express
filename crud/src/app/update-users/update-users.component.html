@@ -1,0 +1,16 @@
+<div>
+    <mat-card>
+        <mat-card-title>Editar user</mat-card-title>
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Name" [(ngModel)]="user.name" name="name">
+            </mat-form-field>
+        </form>
+        <button mat-raised-button (click)="updateUser()" class="btn">
+            Atualizar
+        </button>
+        <button mat-raised-button (click)="cancel()" class="btn">
+            Cancelar
+        </button>
+    </mat-card>
+</div>

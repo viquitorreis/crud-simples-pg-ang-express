@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.container-button > button {
+    background-color: #793981;
+    color: aliceblue;
+}
+
+.btn {
+    background-color: #793981;
+    color: aliceblue;
+}
+
+.mat-icon {
+    color: #793981;
+}
+
+.mat-card{
+    max-width: 400px;
+}
+
+.main-div{
+    margin-top: 130px;
+    text-align: -webkit-center;
+}

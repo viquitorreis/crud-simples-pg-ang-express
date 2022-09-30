@@ -1,0 +1,60 @@
+
+table {
+  width: 100%;
+}
+
+.div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.div-filtro-button{
+  width: 100%;
+}
+
+.div-filtro {
+  border-radius: 8px;
+  margin-bottom: 5px;
+  background-color: gray;
+  width: 70%;
+  float: left;
+  margin-right: 8px;
+}
+
+.container-button > button {
+  margin: auto;
+  padding: 10px 24px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+mat-form-field {
+  width: 90%;
+  margin-left: 14px;
+}
+
+ng-container, td, th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.mat-sort-header-container {
+  justify-content: center !important;
+}
+
+.edit {
+  margin-right: 10px;
+}
+
+/* Colocar border radius na table do angular material */
+.mat-table{    
+  border-radius: 8px 8px 0px 0px;
+  overflow:hidden !important;
+}
+
+mat-paginator{
+  border-radius: 0px 0px 10px 10px;
+  overflow:hidden !important;
+}
